@@ -1,0 +1,29 @@
+<h2>User Login</h2>
+<hr class="star-primary">
+
+<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+<!-- Will need 508 code -->
+<form name="Login" id="Login" action="/login" method="post" novalidate>
+    <div class="row control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>Username</label>
+            <input type="email" class="form-control" placeholder="Username" id="email" required data-validation-required-message="Please enter your username.">
+            <p class="help-block text-danger"></p>
+        </div>
+    </div>
+    <div class="row control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>Password</label>
+            <input type="text" class="form-control" placeholder="Password" id="name" required data-validation-required-message="Please enter your password.">
+            <p class="help-block text-danger"></p>
+        </div>
+    </div>
+
+    <div id="success"></div>
+    <div class="row">
+        <div class="form-group col-xs-12">
+            <button type="submit" class="btn btn-success btn-lg">Login</button>
+        </div>
+    </div>
+</form>
+
